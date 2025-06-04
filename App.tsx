@@ -8,11 +8,9 @@ import { Footer } from './components/Footer';
 import { AllProjectsPage } from './components/AllProjectsPage'; // 新しいコンポーネントをインポート
 import { Project } from './types';
 
-const portfolioName = "Vibe Coding Portfolio";
-const ownerName = "アレックス・イノベーター";
-const bio = `このサイトは、AI技術を活用して開発したツールやプロジェクトをまとめたポートフォリオです。
-「Vibe Coding Portfolio」テンプレートをベースに構築しており、シンプルかつ見やすい構成で、各ツールの概要やリンクを整理しています。
-
+const portfolioName = "ikkan-ai.com";
+const ownerName = "ikkan-ai.com";
+const bio = `AI技術を活用して開発したツールやプロジェクトをまとめたポートフォリオです。
 今後も、新たに開発したツールやアップデート内容を随時追加していきます。`;
 
 const profileImageUrl = "/alex-innovator-profile.png"; 
@@ -20,7 +18,7 @@ const profileImageUrl = "/alex-innovator-profile.png";
 const projectsData: Project[] = [
   {
     id: '0',
-    title: 'ツールEigo Partner',
+    title: 'Eigo Partner',
     description: 'AIとチャットしながら英語を学べる学習支援ツール。',
     longDescription: 'AIチャットボット「Eigo Partner」は、自然な会話を通じて英語学習をサポートします。日常会話の練習、語彙の増強、文法チェックなど、あなたのレベルや目標に合わせてカスタマイズされた学習体験を提供。いつでもどこでも、気軽に英語のアウトプット練習が可能です。',
     imageUrl: 'https://picsum.photos/seed/eigopartner/600/400',
